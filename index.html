@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Botons Centrals</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #F5F5F5;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .button-link {
+      background-color: #2D6A4F;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 18px;
+      border-radius: 16px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .button-link:active {
+      transform: scale(0.97);
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="button-link" href="https://www.google.com" target="_blank">
+      Obrir Pàgina 1
+    </a>
+
+    <a class="button-link" href="https://www.youtube.com" target="_blank">
+      Obrir Pàgina 2
+    </a>
+  </div>
+</body>
+</html>
